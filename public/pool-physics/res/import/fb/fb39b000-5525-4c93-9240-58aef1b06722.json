@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "button_green_un2",
+    "texture": "f997ce0d-d296-465b-9c51-406250a8b2d0",
+    "rect": [
+      0,
+      0,
+      33,
+      24
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      33,
+      24
+    ],
+    "rotated": 0,
+    "capInsets": [
+      7,
+      10,
+      7,
+      13
+    ]
+  }
+}

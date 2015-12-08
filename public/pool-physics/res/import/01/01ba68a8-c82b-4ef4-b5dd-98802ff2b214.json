@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "balls_04",
+    "texture": "feea5c95-6e69-417a-ada2-45e06e44625d",
+    "rect": [
+      3,
+      2,
+      41,
+      41
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      46,
+      46
+    ],
+    "rotated": 0
+  }
+}

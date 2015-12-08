@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pool_table",
+    "texture": "3a3ef6b1-c930-48c0-8b35-051988410853",
+    "rect": [
+      0,
+      0,
+      700,
+      385
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      700,
+      385
+    ],
+    "rotated": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mikado_outline_shadow",
+    "texture": "bf3e3556-2f50-4ec1-ac76-dbafc79955a7",
+    "rect": [
+      3,
+      3,
+      497,
+      232
+    ],
+    "offset": [
+      -4.5,
+      -9
+    ],
+    "originalSize": [
+      512,
+      256
+    ],
+    "rotated": 0
+  }
+}
