@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Bug Test Case</title>
+    <link rel="icon"
+          type="image/GIF"
+          href="../cpp-tests/Resources/Images/favicon.ico"/>
+</head>
+<body style="text-align: center;background: #f2f6f8;">
+<canvas id="gameCanvas" width="800" height="450"></canvas>
+
+<script>
+var img = new Image();
+img.src = 'cocos-html5.png';
+
+img.onload = function () {
+    var canvas = document.getElementById('gameCanvas');
+    var ctx = canvas.getContext('2d');
+
+    var draw = function () {
+        ctx.save();
+        ctx.fillStyle = '#fff';
+        ctx.fillRect(0, 0, 800, 450);
+        ctx.globalCompositeOperation = "destination-atop";
+        ctx.drawImage(img, 100, 150);
+        ctx.restore();
+        ctx.drawImage(img, 250, 150);
+        window.requestAnimationFrame(draw);
+    };
+
+    window.requestAnimationFrame(draw);
+};
+
+</script>
+
+</body>
+</html>
