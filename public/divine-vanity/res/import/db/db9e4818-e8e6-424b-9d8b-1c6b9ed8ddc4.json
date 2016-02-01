@@ -1,1 +1,1 @@
-{"__type__":"cc.SpriteFrame","content":{"name":"bg_timer","texture":"5f055d9c-3b98-4c09-bb44-c059f8f401ff","rect":[0,0,278,53],"offset":[0,0],"originalSize":[278,53],"rotated":0}}
+{"__type__":"cc.SpriteFrame","content":{"name":"bg_timer","texture":"5f055d9c-3b98-4c09-bb44-c059f8f401ff","rect":[0,0,278,53],"offset":[0,0],"originalSize":[278,53],"rotated":0,"capInsets":[16,14,20,15]}}
