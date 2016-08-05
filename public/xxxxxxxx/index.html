@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Cocos Creator | LoveCard</title>
+  <title>游戏人的七夕</title>
 
   <!--http://www.html5rocks.com/en/mobile/mobifying/-->
   <meta name="viewport"
@@ -39,8 +39,45 @@
 
   <link rel="stylesheet" type="text/css" href="style-mobile.css"/>
 
+  <!--zhuge.io-->
+    <script type="text/javascript">
+    window.zhuge = window.zhuge || [];
+    window.zhuge.methods = "_init debug identify track trackLink trackForm page".split(" ");
+    window.zhuge.factory = function(b) {
+        return function() {
+            var a = Array.prototype.slice.call(arguments);
+            a.unshift(b);
+            window.zhuge.push(a);
+            return window.zhuge;
+        }
+    };
+    for (var i = 0; i < window.zhuge.methods.length; i++) {
+        var key = window.zhuge.methods[i];
+        window.zhuge[key] = window.zhuge.factory(key);
+    }
+    window.zhuge.load = function(b, x) {
+        if (!document.getElementById("zhuge-js")) {
+            var a = document.createElement("script");
+            var verDate = new Date();
+            var verStr = verDate.getFullYear().toString()
+                + verDate.getMonth().toString() + verDate.getDate().toString();
+
+            a.type = "text/javascript";
+            a.id = "zhuge-js";
+            a.async = !0;
+            a.src = (location.protocol == 'http:' ? "http://sdk.zhugeio.com/zhuge-lastest.min.js?v=" : 'https://zgsdk.zhugeio.com/zhuge-lastest.min.js?v=') + verStr;
+            var c = document.getElementsByTagName("script")[0];
+            c.parentNode.insertBefore(a, c);
+            window.zhuge._init(b, x)
+        }
+    };
+    window.zhuge.load('dd6115a8e20f491d841f876e02de0fdc', {debug: true});
+    </script>
 </head>
 <body>
+  <div style='margin:0 auto;width:0px;height:0px;overflow:hidden;'>
+    <img src="thumbnail.jpg" width='700'>
+  </div>
   <canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="0"></canvas>
   <div id="splash">
     <div class="progress-bar stripes">
